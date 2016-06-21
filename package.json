@@ -1,0 +1,47 @@
+{
+  "name": "mock-response-handler",
+  "version": "0.1.0",
+  "description": "Mock api for testing",
+  "main": "lib/mock-response-handler.js",
+  "scripts": {
+    "test": "node node_modules/karma/bin/karma start ./karma.conf.js",
+    "test-watch": "node node_modules/karma/bin/karma start ./karma.watch.conf.js",
+    "build": "webpack --config ./webpack.dev.js --progress --colors",
+    "dev": "webpack --config ./webpack.dev.js --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haggex/express-mock-rest-api.git"
+  },
+  "author": "Patric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haggex/express-mock-rest-api/issues"
+  },
+  "homepage": "https://github.com/haggex/express-mock-rest-api#readme",
+  "dependencies": {
+    "es6-shim": "^0.35.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "json-loader": "^0.5.4",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chai-as-promised": "^0.1.2",
+    "karma-coverage": "^1.0.0",
+    "karma-mocha": "^1.0.1",
+    "karma-mocha-reporter": "^2.0.4",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.5.3",
+    "phantomjs-prebuilt": "^2.1.7",
+    "webpack": "^1.13.1"
+  }
+}
